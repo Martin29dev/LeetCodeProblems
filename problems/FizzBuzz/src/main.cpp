@@ -64,3 +64,34 @@ int main() {
 // 		}
 // 	}
 // }
+
+// Ssolution from LeetCode
+// class Solution {
+// public:
+//     vector<string> fizzBuzz(int n) {
+//     vector<string> answer;
+
+//     for(int i = 1; i <= n; i++)
+//     {
+//         bool divisbleBy3 = i % 3 == 0;
+//         bool divisbleBy5 = i % 5 == 0;
+
+//         string currentStr = "";
+
+//         if(divisbleBy3)
+//         {
+//             currentStr += "Fizz";
+//         }
+//         if(divisbleBy5)
+//         {
+//             currentStr += "Buzz";
+//         }
+//         if(currentStr.empty())
+//         {
+//             currentStr += std::to_string(i);
+//         }
+//         answer.push_back(currentStr);
+//     }
+//     return answer;
+//     }
+// };
